@@ -1,0 +1,40 @@
+EffectDef {
+ Emitors {
+  EmitorDef emitor1 {
+   ShapeType Ellipse
+   ShapeSize 360 0 120
+   ConeAngle 360 170 170
+   MaxNum 600
+   BirthRate 35
+   BirthRateRND 0
+   Offset 0 15 0
+   Material "{5784934A1C87961A}graphics/particles/materials/smoke/smoke_cloud_01_g_heliwreck_01.emat"
+   ScaleX 0.1
+   ScaleY 0.1
+   SizeRND 1
+   RandomRotDir 1
+   RotMultiplier 1
+   RandomAngle 1
+   Velocity 0
+   VelAffect 0
+   AirResistance 0.01
+   AirResistanceRND 0
+   GravityMultiply 0.05
+   Restitution 0
+   Spring 0
+   Wind 0
+   AnimFPS 30
+   RandomFrame 1
+   LifeTime 16
+   Color {
+    0 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 1 1 1
+   }
+   Size {
+    0 1 1 1
+   }
+  }
+ }
+}

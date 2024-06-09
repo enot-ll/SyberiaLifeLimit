@@ -5,7 +5,9 @@ modded class MissionGameplay
 	ref SyberiaAdditionalHud m_SyberiaAdditionalHud = null;
 	ref array<int> m_pressedKeys;
 	ref array<ref ToxicZoneView> m_toxicZonesView;
+	ref array<ref PsiZoneView> m_psiZonesView;
 	float m_toxicZoneUpdateTimer;
+	float m_psiZoneUpdateTimer;
 	bool m_isPveIntruderLast;
 	
 	override void OnMissionStart()
@@ -14,6 +16,7 @@ modded class MissionGameplay
 		super.OnMissionStart();
 		m_pressedKeys = new array<int>;
 		m_toxicZoneUpdateTimer = 0;
+		m_psiZoneUpdateTimer = 0;
 		m_isPveIntruderLast = false;
 				
 		PPERequesterBank.GetRequester(PPERequesterBank.REQ_SYB_CONCUSSION).Start();
@@ -49,6 +52,15 @@ modded class MissionGameplay
 				delete dtz;
 			}
 			delete m_toxicZonesView;
+		}
+
+		if(m_psiZonesView)
+		{
+			foreach (ref PsiZoneView psz : m_psiZonesView)
+			{
+				delete psz;
+			}
+			delete m_psiZonesView;
 		}
 	}
 	
@@ -111,6 +123,7 @@ modded class MissionGameplay
 		
 		GetSyberiaRPC().RegisterHandler(SyberiaRPC.SYBRPC_SCREEN_MESSAGE, this, "OnScreenMessageRpc");
 		GetSyberiaRPC().RegisterHandler(SyberiaRPC.SYBRPC_SYNC_TOXIC_ZONES, this, "OnSyncToxicZone");
+		GetSyberiaRPC().RegisterHandler(SyberiaRPC.SYBRPC_SYNC_PSI_ZONES, this, "OnSyncPsiZone");
 	}
 	
 	override void OnUpdate(float timeslice)
@@ -129,6 +142,19 @@ modded class MissionGameplay
 					foreach (ref ToxicZoneView tzv : m_toxicZonesView)
 					{
 						tzv.Update(player);
+					}
+				}
+			}
+
+			if (m_psiZonesView)
+			{
+				m_psiZoneUpdateTimer = m_psiZoneUpdateTimer - timeslice;
+				if (m_psiZoneUpdateTimer <= 0.0)
+				{
+					m_psiZoneUpdateTimer = 5.0;
+					foreach (ref PsiZoneView psz : m_psiZonesView)
+					{
+						psz.Update(player);
 					}
 				}
 			}
@@ -430,7 +456,6 @@ modded class MissionGameplay
 			ref Widget watermarkWidget = GetGame().GetWorkspace().CreateWidgets( "SyberiaLifeLimit/layout/WatermarkInGame.layout" );		
 			ref Widget watermarkBase = watermarkWidget.FindAnyWidget( "WatermarkBase" );
 			ref Widget watermarkBtn = watermarkBase.FindAnyWidget( "WatermarkActionBtn" );
-			TextWidget.Cast( watermarkBase.FindAnyWidget( "WatermarkTextWidget5" ) ).SetText(Syberia_Version);
 			m_WidgetEventHandler.RegisterOnClick(watermarkBtn, m_watermarkHandler, "OnWatermarkClick");
 			watermarkWidget.RemoveChild(watermarkBase);
 			ingameMenu.GetLayoutRoot().AddChild(watermarkBase, true);
@@ -459,6 +484,31 @@ modded class MissionGameplay
 			foreach (ref ToxicZone zone : toxicZonesInfo)
 			{
 				m_toxicZonesView.Insert(new ToxicZoneView(zone.m_position, zone.m_radius));
+			}
+		}
+	}
+
+	void OnSyncPsiZone(ParamsReadContext ctx, PlayerIdentity sender)
+	{
+		Param1<ref array<ref PsiZone>> clientData;
+		if ( !ctx.Read( clientData ) ) return;
+		
+		if (m_psiZonesView)
+		{
+			foreach (ref PsiZoneView zoneToDelete : m_psiZonesView)
+			{
+				delete zoneToDelete;
+			}
+			delete m_psiZonesView;
+		}
+		
+		ref array<ref PsiZone> psiZonesInfo = clientData.param1;
+		m_psiZonesView = new array<ref PsiZoneView>;
+		if (psiZonesInfo)
+		{
+			foreach (ref PsiZone zone : psiZonesInfo)
+			{
+				m_psiZonesView.Insert(new PsiZoneView(zone.m_position, zone.m_radius));
 			}
 		}
 	}

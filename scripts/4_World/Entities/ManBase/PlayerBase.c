@@ -1,5 +1,7 @@
 modded class PlayerBase
 {	
+	// inventory blocking
+	bool m_isInventoryBlocked = false;
 	// Sleeping
 	int m_lastSleepingValue;
 	int m_sleepingValue;
@@ -36,6 +38,7 @@ modded class PlayerBase
 		m_mindStateLast = GetSyberiaConfig().m_mindstateMaxValue;
 		RegisterNetSyncVariableFloat("m_mindStateValue");
 		RegisterNetSyncVariableFloat("m_mindStateLast");
+		RegisterNetSyncVariableBool("m_isInventoryBlocked");
 	}
 	
 	override void EEInit()
@@ -90,8 +93,8 @@ modded class PlayerBase
 	{
 		super.SetActionsRemoteTarget(InputActionMap);
 		AddAction(ActionStethoscopeInspect, InputActionMap);
-		AddAction(ActionCheckName, InputActionMap);
-		AddAction(ActionSayName, InputActionMap);			
+		// AddAction(ActionCheckName, InputActionMap);
+		// AddAction(ActionSayName, InputActionMap);			
 	}
 	
 	override void IncreaseDiseaseCount()
@@ -467,6 +470,22 @@ modded class PlayerBase
 	{
 		super.OnCommandVehicleFinish();
 		TryHideShoulders(false);
+	}
+
+	override bool IsInventoryVisible()
+	{
+		return !m_isInventoryBlocked;
+	}
+	
+	bool IsInventoryBlocked()
+	{
+		return m_isInventoryBlocked;	
+	}
+	
+	void UnlockInventory()
+	{
+		m_isInventoryBlocked = false;
+		SetSynchDirty();
 	}
 	
 	void TryHideShoulders(bool state)

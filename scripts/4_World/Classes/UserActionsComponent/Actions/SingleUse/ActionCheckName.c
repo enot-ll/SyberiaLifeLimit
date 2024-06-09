@@ -20,6 +20,7 @@ class ActionCheckName: ActionInteractBase
 
 	override bool ActionCondition( PlayerBase player, ActionTarget target, ItemBase item )
 	{
+		return false;
 		if (player.GetItemInHands()) return false;
 		
 		Stethoscope itemStatoschope = Stethoscope.Cast(player.GetItemOnSlot("Eyewear"));

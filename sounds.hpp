@@ -62,6 +62,13 @@ class cut_page: default
         "SyberiaLifeLimit\data\sounds\actions\cut_page.ogg", 0.8, 1, 10
     };
 };
+class read_book: default
+{
+    sound[]=
+    {
+        "SyberiaLifeLimit\data\sounds\actions\read_book.ogg", 0.8, 1, 10
+    };
+};
 class jim_wow_1: default
 {
     sound[]=

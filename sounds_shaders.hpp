@@ -24,7 +24,7 @@ class psieffect_Soundshader: baseCharacter_SoundShader
     samples[]=
     {
         {
-            "SyberiaLifeLimit\data\sounds\player\PsiEffect.ogg", 1
+            "SyberiaLifeLimit\data\sounds\player\PsiEffectHorrorNew.ogg", 1
         }
     };
     volume=0.5;

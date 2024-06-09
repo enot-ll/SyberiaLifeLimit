@@ -58,7 +58,7 @@ class PPERequester_SybPSI : PPERequester_GameplayBase
 			{
 				if (!m_psiEffectSound)
 				{
-					GetGame().GetPlayer().PlaySoundSet(m_psiEffectSound, "psieffect_SoundSet", 5.0, 2.0, true);
+					GetGame().GetPlayer().PlaySoundSet(m_psiEffectSound, "psieffect_SoundSet", 0, 0, true);
 				}
 				else
 				{
@@ -71,12 +71,11 @@ class PPERequester_SybPSI : PPERequester_GameplayBase
 			}
 			
 			m_psiLastEffectOffset = m_psiEffectOffset;
-			m_psiEffectColors[0] = m_psiEffectOffset * 0.8;
-			m_psiEffectColors[1] = m_psiEffectOffset * 0.8;
-			m_psiEffectColors[2] = 0.0;
-			m_psiEffectColors[3] = 0.0;
+			m_psiEffectColors[0] = m_psiEffectOffset * 0.95;
+			m_psiEffectColors[1] = m_psiEffectOffset * 0.95;
+			m_psiEffectColors[2] = m_psiEffectOffset * 0.95;
+			m_psiEffectColors[3] = 1;
 		}
-		
 		SetTargetValueColor(PostProcessEffectType.Glow,PPEGlow.PARAM_COLORIZATIONCOLOR,m_psiEffectColors,PPEGlow.L_PSI,PPOperators.SUBSTRACT);
 	}
 };

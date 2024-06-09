@@ -23,8 +23,8 @@ FrameWidgetClass GearPDAMenu {
    image0 "SyberiaLifeLimit\data\pda\gui_messages.paa"
    mode blend
    "src alpha" 1
-   "no wrap" 1
-   stretch 1
+   "clamp mode" clamp
+   "stretch mode" stretch_w_h
    {
     TextListboxWidgetClass contact_list {
      color 0.1255 0.1451 0.0706 0.8235
@@ -419,8 +419,8 @@ FrameWidgetClass GearPDAMenu {
    image0 "SyberiaLifeLimit\data\pda\gui.paa"
    mode blend
    "src alpha" 1
-   "no wrap" 1
-   stretch 1
+   "clamp mode" clamp
+   "stretch mode" stretch_w_h
    {
     PanelWidgetClass map_widget_panel {
      clipchildren 1
@@ -433,7 +433,6 @@ FrameWidgetClass GearPDAMenu {
      {
       MapWidgetClass map_widget {
        ignorepointer 0
-       color 0.4941 0.5569 0.2824 0.7843
        size 1 1
        halign center_ref
        valign center_ref
@@ -460,8 +459,8 @@ FrameWidgetClass GearPDAMenu {
    image0 "SyberiaLifeLimit\data\pda\gui_messages.paa"
    mode blend
    "src alpha" 1
-   "no wrap" 1
-   stretch 1
+   "clamp mode" clamp
+   "stretch mode" stretch_w_h
    {
     TextListboxWidgetClass group_members {
      color 0.1255 0.1451 0.0706 0.8235

@@ -16,7 +16,6 @@ modded class MissionMainMenu
 		ref Widget watermarkWidget = GetGame().GetWorkspace().CreateWidgets( "SyberiaLifeLimit/layout/WatermarkMain.layout" );		
 		ref Widget watermarkBase = watermarkWidget.FindAnyWidget( "WatermarkBase" );
 		ref Widget watermarkBtn = watermarkBase.FindAnyWidget( "WatermarkActionBtn" );
-		TextWidget.Cast( watermarkBase.FindAnyWidget( "WatermarkTextWidget5" ) ).SetText(Syberia_Version);
 		m_WidgetEventHandler.RegisterOnClick(watermarkBtn, m_watermarkHandler, "OnWatermarkClick");
 		watermarkWidget.RemoveChild(watermarkBase);
 		rootWidget.AddChild(watermarkBase, true);

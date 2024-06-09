@@ -1,0 +1,88 @@
+EffectDef {
+ MinFPS 30
+ Emitors {
+  EmitorDef Clouds {
+   ShapeType Ellipse
+   ShapeSize 100 0.1 100
+   ConeAngle 0 0 0
+   MaxNum 10
+   BirthRate 1
+   BirthRateRND 1
+   BirthRateVel 1
+   Offset 0 0 0
+   Angles 0 0 0
+   LocalTransform 0
+   Material "{9CA0FD749945BABF}graphics/particles/materials/smoke/smoke_dust_01_em2.emat"
+   ScaleY 0.33
+   SizeMultiplier 65
+   SizeRND 25
+   RandomRotDir 0
+   RotMultiplier 1
+   VelAngle 0
+   RandomAngle 0
+   Sort 1
+   BillboardingType Full
+   Velocity 0.2
+   VelocityRND 0.2
+   VelAffect 0
+   AirResistance 1
+   AirResistanceRND 0
+   GravityMultiply 0
+   Wind 0
+   AnimFPS 30
+   RandomFrame 1
+   LifeTime 10
+   LifeTimeRND 5
+   Color {
+    0 0.5316 0.5506 0.5253 1 0.5253 0.519 0.5316
+   }
+   Alpha {
+    0 0 0.0625 0 0.5 0.51266 0.9375 0 1 0
+   }
+   RotationSpeed {
+    0 0.50633 0.50223 1 1 0.50633
+   }
+   Size {
+    0 1 0.49926 1 1 1
+   }
+   EffectTime 1
+   Repeat 1
+  }
+   EmitorDef Ash {
+   ShapeType Ellipse
+   ShapeSize 100 0.1 100
+   ConeAngle 360 170 170
+   MaxNum 600
+   BirthRate 35
+   BirthRateRND 0
+   Offset 0 15 0
+   Material "{5784934A1C87961A}graphics/particles/materials/smoke/smoke_cloud_01_g_heliwreck_01.emat"
+   ScaleX 0.1
+   ScaleY 0.1
+   SizeRND 1
+   RandomRotDir 1
+   RotMultiplier 1
+   RandomAngle 1
+   Velocity 0
+   VelAffect 0
+   AirResistance 0.01
+   AirResistanceRND 0
+   GravityMultiply 0.05
+   Restitution 0
+   Spring 0
+   Wind 0
+   AnimFPS 30
+   RandomFrame 1
+   LifeTime 16
+   Color {
+    0 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 1 1 1
+   }
+   Size {
+    0 1 1 1
+   }
+  }
+ }
+}

@@ -13,10 +13,10 @@ modded class ActionConstructor
 		actions.Insert(ActionUseSalveTarget);
 		actions.Insert(ActionUseSalveSelf);
 		actions.Insert(ActionOpenPDA);
-		actions.Insert(ActionCheckName);
-		actions.Insert(ActionSayName);
+		// actions.Insert(ActionCheckName);
+		// actions.Insert(ActionSayName);
 		actions.Insert(ActionSleep);
-        actions.Insert(ActionCutBookPage);
+        actions.Insert(ActionReadBook);
 		actions.Insert(ActionPlugStethoscope);
 		actions.Insert(ActionStethoscopeInspect);
 		actions.Insert(ActionDebugBuildingToolNext);

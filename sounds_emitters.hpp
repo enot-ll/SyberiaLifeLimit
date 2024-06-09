@@ -63,6 +63,13 @@ class CutPage_SoundEmitter: SyberiaSoundEmitter
     emitterRange=10;
     emitterSound="cut_page";
 };
+class ReadBook_SoundEmitter: SyberiaSoundEmitter
+{
+    scope=2;
+    emitterLifetime=30;
+    emitterRange=10;
+    emitterSound="read_book";
+};
 class JimWow1_SoundEmitter: SyberiaSoundEmitter
 {
     scope=2;

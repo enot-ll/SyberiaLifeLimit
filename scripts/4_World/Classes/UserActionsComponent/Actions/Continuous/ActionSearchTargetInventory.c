@@ -40,6 +40,6 @@ class ActionSearchTargetInventory : ActionContinuousBase
 		if (targetEntity.IsAlive()) return false;
 		if (targetEntity.IsInventoryVisible()) return false;
 
-		return targetEntity.IsZombie();
+		return targetEntity.IsZombie() || targetEntity.IsPlayer();
 	}
 };

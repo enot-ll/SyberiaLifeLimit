@@ -26,6 +26,17 @@ modded class ClosableContainer
 					return;
 				}
 			}
+			else if (m_Entity.IsInherited(PlayerBase))
+			{
+				PlayerBase player = PlayerBase.Cast( m_Entity );
+				if (player && player.IsInventoryBlocked())
+				{
+					m_Closed = true;
+					this.OnHide();
+					m_Parent.m_Parent.Refresh();
+					return;
+				}
+			}
 		}
 
 		super.Refresh();

@@ -44,7 +44,7 @@ class PPERequester_SybPain : PPERequester_GameplayBase
 			
 			if (m_PainValue >= 0.3)
 			{
-				blurEffect = blurEffect + sinusVal;
+				blurEffect = blurEffect + sinusVal/2;
 			}
 		}
 		

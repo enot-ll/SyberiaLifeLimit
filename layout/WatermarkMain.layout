@@ -9,7 +9,7 @@ FrameWidgetClass rootFrame {
   PanelWidgetClass WatermarkBase {
    ignorepointer 0
    color 0.0353 0.0353 0.0353 0.9882
-   position 40 205.328
+   position 100 205.328
    size 420 164.67201
    valign bottom_ref
    hexactpos 1

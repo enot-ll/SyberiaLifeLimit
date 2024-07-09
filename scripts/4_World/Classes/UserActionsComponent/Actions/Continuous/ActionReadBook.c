@@ -11,10 +11,11 @@ class ActionReadBook extends ActionContinuousBase
 	void ReadBook( ItemBase book, PlayerBase player) {}
 	void ActionReadBook()
 	{
-		m_CallbackClass = ActionReadBookPageCB;
-		m_CommandUID = DayZPlayerConstants.CMD_ACTIONFB_VIEWNOTE;
+		m_CallbackClass = ActionSearchTargetInventoryCB;
+		m_CommandUID = DayZPlayerConstants.CMD_ACTIONFB_CRAFTING;
 		m_FullBody = true;
-		m_StanceMask = DayZPlayerConstants.STANCEMASK_CROUCH;
+		m_StanceMask = DayZPlayerConstants.STANCEMASK_CROUCH | DayZPlayerConstants.STANCEMASK_ERECT;
+		m_SpecialtyWeight = UASoftSkillsWeight.PRECISE_LOW;
 	}
 	
 	override void CreateConditionComponents()  

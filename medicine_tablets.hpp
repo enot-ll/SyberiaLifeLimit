@@ -64,7 +64,10 @@ class TabletsAnalgin : TabletsBase
     {
         "SyberiaLifeLimit\data\medical\tablets_green_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, 
+    "SyberiaLifeLimit\data\medical\tablets_base.rvmat", 
+    "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", 
+    "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 

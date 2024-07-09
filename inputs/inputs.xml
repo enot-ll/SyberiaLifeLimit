@@ -13,16 +13,13 @@
 	<!-- presets -->
 	<preset>
         <input name="UAToggleSyberiaSkillsMenu">
-            <btn name="kO" />
-        </input>
-        <input name="UAToggleSyberiaHideItem">
-            <btn name="kV" />
+            <btn name="kU" />
         </input>
         <input name="UAToggleSyberiaUseBackpack">
-            <btn name="kB" />
+            <btn name="kI" />
         </input>
         <input name="UAToggleSyberiaUsePDA">
-            <btn name="kP" />
+            <btn name="kM" />
         </input>
 	</preset>
 </modded_inputs>

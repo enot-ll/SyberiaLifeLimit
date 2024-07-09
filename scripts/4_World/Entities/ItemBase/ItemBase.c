@@ -3,7 +3,7 @@ modded class ItemBase
 	override void SetActions()
 	{
 		super.SetActions();		
-		AddAction(ActionReadBook);
+		// AddAction(ActionReadBook);
 	}
 
 	bool IsTemperatureVisible()

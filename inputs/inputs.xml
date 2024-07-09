@@ -4,7 +4,6 @@
 	<inputs>
 		<actions>
 			<input name="UAToggleSyberiaSkillsMenu" loc="syb_input_skillsmenu" />
-            <input name="UAToggleSyberiaHideItem" loc="syb_input_hideitem" />
             <input name="UAToggleSyberiaUseBackpack" loc="syb_input_usebackpack" />
             <input name="UAToggleSyberiaUsePDA" loc="syb_input_open_pda" />
 		</actions>

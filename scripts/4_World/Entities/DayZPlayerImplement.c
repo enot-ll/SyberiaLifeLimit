@@ -170,15 +170,6 @@ modded class DayZPlayerImplement
 			GetGame().GetUIManager().ShowScriptedMenu( m_skillsMenu, NULL );
 		}
 		
-        UAInput hideItemKey = GetUApi().GetInputByName("UAToggleSyberiaHideItem");
-		if ( hideItemKey.LocalClick() && (GetGame().GetUIManager().GetMenu() == NULL || GetGame().GetUIManager().FindMenu( MENU_INVENTORY )) )
-		{
-			if ( !player.GetInventory().IsInventoryLocked() && player.GetHumanInventory().CanRemoveEntityInHands() )
-			{
-				player.PredictiveMoveItemFromHandsToInventory();
-			}
-		}
-		
 		UAInput useBackpackKey = GetUApi().GetInputByName("UAToggleSyberiaUseBackpack");
 		if ( useBackpackKey.LocalClick() && !player.GetInventory().IsInventoryLocked() && (GetGame().GetUIManager().GetMenu() == NULL || GetGame().GetUIManager().FindMenu( MENU_INVENTORY )) )
 		{

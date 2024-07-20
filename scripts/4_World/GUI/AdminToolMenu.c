@@ -129,7 +129,7 @@ class AdminToolMenu extends UIScriptedMenu
 	
     override Widget Init()
     {
-		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "SyberiaLifeLimit/layout/AdminToolMenu.layout" );		
+		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "SyberiaScripts/layout/AdminToolMenu.layout" );		
 		
 		// Players tab
 		m_playersListBox = TextListboxWidget.Cast(layoutRoot.FindAnyWidget("PlayersListBox"));
@@ -437,7 +437,7 @@ class AdminToolMenu extends UIScriptedMenu
 		for (int cid = 0; cid < corpseCount; cid++)
 		{
 			string corpseName = context.m_bodiesNames.Get(cid);
-			m_mapWidget.AddUserMark(context.m_bodiesPositions.Get(cid), corpseName, ARGB(255, 128, 93, 128), "SyberiaLifeLimit\\data\\gui\\Markers\\corpse.paa");
+			m_mapWidget.AddUserMark(context.m_bodiesPositions.Get(cid), corpseName, ARGB(255, 128, 93, 128), "SyberiaScripts\\data\\gui\\Markers\\corpse.paa");
 		}
 		
 		int vehiclesCount = context.m_vehiclePositions.Count();	
@@ -445,13 +445,13 @@ class AdminToolMenu extends UIScriptedMenu
 		{
 			string carName = context.m_vehicleNames.Get(vid);
 			carName = GameHelpers.GetItemDisplayName(carName) + " (" + carName + ")";
-			m_mapWidget.AddUserMark(context.m_vehiclePositions.Get(vid), carName, ARGB(255, 255, 216, 0), "SyberiaLifeLimit\\data\\gui\\Markers\\car.paa");
+			m_mapWidget.AddUserMark(context.m_vehiclePositions.Get(vid), carName, ARGB(255, 255, 216, 0), "SyberiaScripts\\data\\gui\\Markers\\car.paa");
 		}
 		
 		int playersCount = context.m_playerPositions.Count();
 		for (int pid = 0; pid < playersCount; pid++)
 		{
-			m_mapWidget.AddUserMark(context.m_playerPositions.Get(pid), context.m_playerNames.Get(pid), ARGB(255, 255, 0, 0), "SyberiaLifeLimit\\data\\gui\\Markers\\player.paa");
+			m_mapWidget.AddUserMark(context.m_playerPositions.Get(pid), context.m_playerNames.Get(pid), ARGB(255, 255, 0, 0), "SyberiaScripts\\data\\gui\\Markers\\player.paa");
 		}
 	}
 	

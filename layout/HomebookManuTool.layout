@@ -34,7 +34,7 @@ FrameWidgetClass rootFrame {
        vexactpos 1
        hexactsize 1
        vexactsize 1
-       image0 "SyberiaLifeLimit/data/gui/Homebook/icon_door.paa"
+       image0 "SyberiaScripts/data/gui/Homebook/icon_door.paa"
        mode blend
        "src alpha" 1
        "no wrap" 0

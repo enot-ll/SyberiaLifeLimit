@@ -34,7 +34,7 @@ class InjectorPromedol : InjectorBase
     medPainkillerLevel=3;
     medPainkillerTimeSec=1800;
     hiddenSelections[] = {"zbytek"};
-    hiddenSelectionsTextures[] = { "SyberiaLifeLimit\data\medical\injector_blue_co.paa" };
+    hiddenSelectionsTextures[] = { "SyberiaScripts\data\medical\injector_blue_co.paa" };
     ITEM_DAMAGE_SYSTEM(100, "DZ\gear\medical\data\Morphine.rvmat", "DZ\gear\medical\data\Morphine_damage.rvmat", "DZ\gear\medical\data\Morphine_destruct.rvmat");
     INJECTOR_ANIM_EVENTS;
 };
@@ -47,7 +47,7 @@ class InjectorZivirol : InjectorBase
     medRemoveZVirus=1;
     overdosedIncrement=1.8;
     hiddenSelections[] = {"zbytek"};
-    hiddenSelectionsTextures[] = { "SyberiaLifeLimit\data\medical\injector_red_co.paa" };
+    hiddenSelectionsTextures[] = { "SyberiaScripts\data\medical\injector_red_co.paa" };
     ITEM_DAMAGE_SYSTEM(100, "DZ\gear\medical\data\Morphine.rvmat", "DZ\gear\medical\data\Morphine_damage.rvmat", "DZ\gear\medical\data\Morphine_destruct.rvmat");
     INJECTOR_ANIM_EVENTS;
 };
@@ -59,7 +59,7 @@ class InjectorTopoizomeraza : InjectorBase
     model="\dz\gear\medical\morphine.p3d";
     medRemoveSepsis=1;
     hiddenSelections[] = {"zbytek"};
-    hiddenSelectionsTextures[] = { "SyberiaLifeLimit\data\medical\injector_green_co.paa" };
+    hiddenSelectionsTextures[] = { "SyberiaScripts\data\medical\injector_green_co.paa" };
     ITEM_DAMAGE_SYSTEM(100, "DZ\gear\medical\data\Morphine.rvmat", "DZ\gear\medical\data\Morphine_damage.rvmat", "DZ\gear\medical\data\Morphine_destruct.rvmat");
     INJECTOR_ANIM_EVENTS;
 };
@@ -74,7 +74,7 @@ class InjectorErytropoenin : InjectorBase
     medBloodHemostatic=1;
     medBloodHemostaticTimeSec=900;
     hiddenSelections[] = {"zbytek"};
-    hiddenSelectionsTextures[] = { "SyberiaLifeLimit\data\medical\injector_red_co.paa" };
+    hiddenSelectionsTextures[] = { "SyberiaScripts\data\medical\injector_red_co.paa" };
     ITEM_DAMAGE_SYSTEM(100, "DZ\gear\medical\data\Morphine.rvmat", "DZ\gear\medical\data\Morphine_damage.rvmat", "DZ\gear\medical\data\Morphine_destruct.rvmat");
     INJECTOR_ANIM_EVENTS;
 };
@@ -87,7 +87,7 @@ class InjectorNeiroks : InjectorBase
     medConcussionHeal=1;
     overdosedIncrement=0.5;
     hiddenSelections[] = {"zbytek"};
-    hiddenSelectionsTextures[] = { "SyberiaLifeLimit\data\medical\injector_blue_co.paa" };
+    hiddenSelectionsTextures[] = { "SyberiaScripts\data\medical\injector_blue_co.paa" };
     ITEM_DAMAGE_SYSTEM(100, "DZ\gear\medical\data\Morphine.rvmat", "DZ\gear\medical\data\Morphine_damage.rvmat", "DZ\gear\medical\data\Morphine_destruct.rvmat");
     INJECTOR_ANIM_EVENTS;
 };
@@ -103,7 +103,7 @@ class InjectorAmoksivan : InjectorBase
     medRemoveSepsis=1;
     overdosedIncrement=0.6;
     hiddenSelections[] = {"zbytek"};
-    hiddenSelectionsTextures[] = { "SyberiaLifeLimit\data\medical\injector_red_co.paa" };
+    hiddenSelectionsTextures[] = { "SyberiaScripts\data\medical\injector_red_co.paa" };
     ITEM_DAMAGE_SYSTEM(100, "DZ\gear\medical\data\Morphine.rvmat", "DZ\gear\medical\data\Morphine_damage.rvmat", "DZ\gear\medical\data\Morphine_destruct.rvmat");
     INJECTOR_ANIM_EVENTS;
 };
@@ -121,7 +121,7 @@ class InjectorKetorol : InjectorBase
     medAntibioticsTimeSec=1800;
     medAntibioticsStrength=2.0;
     hiddenSelections[] = {"zbytek"};
-    hiddenSelectionsTextures[] = { "SyberiaLifeLimit\data\medical\injector_green_co.paa" };
+    hiddenSelectionsTextures[] = { "SyberiaScripts\data\medical\injector_green_co.paa" };
     ITEM_DAMAGE_SYSTEM(100, "DZ\gear\medical\data\Morphine.rvmat", "DZ\gear\medical\data\Morphine_damage.rvmat", "DZ\gear\medical\data\Morphine_destruct.rvmat");
     INJECTOR_ANIM_EVENTS;
 };
@@ -135,7 +135,7 @@ class InjectorEpipen : InjectorBase
     medAdrenalinTimeSec=300;
     overdosedIncrement=0.5;
     hiddenSelections[] = {"zbytek"};
-    hiddenSelectionsTextures[] = { "SyberiaLifeLimit\data\medical\injector_blue_co.paa" };
+    hiddenSelectionsTextures[] = { "SyberiaScripts\data\medical\injector_blue_co.paa" };
     ITEM_DAMAGE_SYSTEM(100, "DZ\gear\medical\data\Morphine.rvmat", "DZ\gear\medical\data\Morphine_damage.rvmat", "DZ\gear\medical\data\Morphine_destruct.rvmat");
     INJECTOR_ANIM_EVENTS;
 };
@@ -148,7 +148,7 @@ class InjectorNovichek : InjectorBase
     medHemologicShock=1;
     overdosedIncrement=5;
     hiddenSelections[] = {"zbytek"};
-    hiddenSelectionsTextures[] = { "SyberiaLifeLimit\data\medical\injector_blue_co.paa" };
+    hiddenSelectionsTextures[] = { "SyberiaScripts\data\medical\injector_blue_co.paa" };
     ITEM_DAMAGE_SYSTEM(100, "DZ\gear\medical\data\Morphine.rvmat", "DZ\gear\medical\data\Morphine_damage.rvmat", "DZ\gear\medical\data\Morphine_destruct.rvmat");
     INJECTOR_ANIM_EVENTS;
 };
@@ -162,7 +162,7 @@ class InjectorRadioprotector : InjectorBase
     medRadioprotectionTimer=350;
     overdosedIncrement=0.7;
     hiddenSelections[] = {"zbytek"};
-    hiddenSelectionsTextures[] = { "SyberiaLifeLimit\data\medical\injector_yellow_co.paa" };
+    hiddenSelectionsTextures[] = { "SyberiaScripts\data\medical\injector_yellow_co.paa" };
     ITEM_DAMAGE_SYSTEM(100, "DZ\gear\medical\data\Morphine.rvmat", "DZ\gear\medical\data\Morphine_damage.rvmat", "DZ\gear\medical\data\Morphine_destruct.rvmat");
     INJECTOR_ANIM_EVENTS;
 };

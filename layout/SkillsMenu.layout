@@ -17,7 +17,7 @@ FrameWidgetClass rootFrame {
    vexactpos 1
    hexactsize 1
    vexactsize 1
-   image0 "SyberiaLifeLimit/data/gui/skills/background.paa"
+   image0 "SyberiaScripts/data/gui/skills/background.paa"
    mode blend
    "src alpha" 1
    "no wrap" 0

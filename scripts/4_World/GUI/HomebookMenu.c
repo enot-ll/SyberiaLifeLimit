@@ -37,7 +37,7 @@ class HomebookMenu extends UIScriptedMenu
 
     override Widget Init()
     {
-		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "SyberiaLifeLimit/layout/HomebookMenu.layout" );
+		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "SyberiaScripts/layout/HomebookMenu.layout" );
 
 		m_tabsMapping.Insert("General");
 		m_tabsMapping.Insert("Doors");
@@ -113,7 +113,7 @@ class HomebookMenu extends UIScriptedMenu
 	
 	private void InitDoorItem(int index, ref LivespaceDoorData doorData, int doorLevel)
 	{		
-		ref Widget itemWidget = GetGame().GetWorkspace().CreateWidgets( "SyberiaLifeLimit/layout/HomebookMenuItemDoor.layout" );		
+		ref Widget itemWidget = GetGame().GetWorkspace().CreateWidgets( "SyberiaScripts/layout/HomebookMenuItemDoor.layout" );		
 		m_doorsListPanel.AddChild(itemWidget);
 		m_doorWidgetsCache.Insert(itemWidget);
 				
@@ -129,11 +129,11 @@ class HomebookMenu extends UIScriptedMenu
 		string doorState;
 		ref ImageWidget widgetIcon = ImageWidget.Cast( itemWidget.FindAnyWidget( "ItemIcon" ) );
 		if (m_livespace.IsDoorOpen(doorData.m_selfDoorId)) {
-			widgetIcon.LoadImageFile(0, "SyberiaLifeLimit/data/gui/Homebook/icon_unlocked.paa");
+			widgetIcon.LoadImageFile(0, "SyberiaScripts/data/gui/Homebook/icon_unlocked.paa");
 			doorState = "State: Opened";		
 		}
 		else {
-			widgetIcon.LoadImageFile(0, "SyberiaLifeLimit/data/gui/Homebook/icon_locked.paa");
+			widgetIcon.LoadImageFile(0, "SyberiaScripts/data/gui/Homebook/icon_locked.paa");
 			doorState = "State: Closed";		
 		}		
 
@@ -187,7 +187,7 @@ class HomebookMenu extends UIScriptedMenu
 	
 	private int AddConsumableToScrollPanel(ref ScrollWidget scrollWidget, ref array<ref Widget> cache, int offset, string className, float quantity)
 	{
-		ref Widget itemWidget = GetGame().GetWorkspace().CreateWidgets( "SyberiaLifeLimit/layout/HomebookMenuConsumable.layout" );		
+		ref Widget itemWidget = GetGame().GetWorkspace().CreateWidgets( "SyberiaScripts/layout/HomebookMenuConsumable.layout" );		
 		scrollWidget.AddChild(itemWidget);
 		cache.Insert(itemWidget);
 				

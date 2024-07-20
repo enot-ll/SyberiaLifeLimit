@@ -3,14 +3,14 @@ class SyringeEmpty : Inventory_Base
     scope=2;
     displayName="#syb_syringe_empty_name";
     descriptionShort="#syb_syringe_empty_desc";
-    model="SyberiaLifeLimit\data\medical\syringe_empty.p3d";
+    model="SyberiaScripts\data\medical\syringe_empty.p3d";
     rotationFlags=17;
     itemSize[]={2,1};
     weight=50;
     absorbency=0;
     varTemperatureMax=100;
     medicalItem=1;
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\syringe.rvmat", "SyberiaLifeLimit\data\medical\syringe_damage.rvmat", "SyberiaLifeLimit\data\medical\syringe_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\syringe.rvmat", "SyberiaScripts\data\medical\syringe_damage.rvmat", "SyberiaScripts\data\medical\syringe_destruct.rvmat");
 };
 
 class SyringeFull : Inventory_Base
@@ -18,7 +18,7 @@ class SyringeFull : Inventory_Base
     scope=2;
     displayName="#syb_syringe_full_name";
     descriptionShort="#syb_syringe_full_desc";
-    model="SyberiaLifeLimit\data\medical\syringe_full.p3d";
+    model="SyberiaScripts\data\medical\syringe_full.p3d";
     rotationFlags=17;
     itemSize[]={2,1};
     weight=100;
@@ -31,9 +31,9 @@ class SyringeFull : Inventory_Base
     };
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\syringefluid_co.paa"
+        "SyberiaScripts\data\medical\syringefluid_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\syringe.rvmat", "SyberiaLifeLimit\data\medical\syringe_damage.rvmat", "SyberiaLifeLimit\data\medical\syringe_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\syringe.rvmat", "SyberiaScripts\data\medical\syringe_damage.rvmat", "SyberiaScripts\data\medical\syringe_destruct.rvmat");
     class AnimEvents
     {
         class SoundWeapon
@@ -62,7 +62,7 @@ class BandageHemostatic: BandageDressing
     scope=2;
     displayName="#syb_hemostatic_bandage_name";
     descriptionShort="#syb_hemostatic_bandage_desc";
-    model="SyberiaLifeLimit\data\medical\hemostatic_bandage.p3d";
+    model="SyberiaScripts\data\medical\hemostatic_bandage.p3d";
     inventorySlot[]=
     {
         "MedicalBandage"
@@ -121,7 +121,7 @@ class SurgicalKit: Inventory_Base
     descriptionShort="#syb_surgical_kit_once_desc";
     model="\dz\gear\tools\sewing_kit.p3d";
     hiddenSelections[] = {"zbytek"};
-    hiddenSelectionsTextures[] = { "SyberiaLifeLimit\data\medical\surgical_kit_co.paa" };
+    hiddenSelectionsTextures[] = { "SyberiaScripts\data\medical\surgical_kit_co.paa" };
     rotationFlags=17;
     varQuantityInit=100;
     varQuantityMin=0;

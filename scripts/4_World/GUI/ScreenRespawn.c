@@ -28,7 +28,7 @@ class ScreenRespawn extends ScreenBase
 	
     override Widget Init()
     {
-		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "SyberiaLifeLimit/layout/ScreenRespawn.layout" );
+		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "SyberiaScripts/layout/ScreenRespawn.layout" );
 
 		m_charNameText = TextWidget.Cast( layoutRoot.FindAnyWidget( "NameLabel" ) );
 		m_soulsCounterText = TextWidget.Cast( layoutRoot.FindAnyWidget( "SoulsCounter" ) );

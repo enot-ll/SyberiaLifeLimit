@@ -12,7 +12,7 @@ modded class ParticleList
 
 	static string GetPathToSybParticles()
 	{
-		return "SyberiaLifeLimit/particles/";
+		return "SyberiaScripts/particles/";
 	}
 
 }

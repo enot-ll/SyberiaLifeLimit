@@ -165,7 +165,7 @@ class SyberiaAdditionalHud
 		if (screenPos[1] <= 0 || screenPos[1] >= sy) return;
 		if (screenPos[2] < 0) return;
 		
-		ref Widget w = GetGame().GetWorkspace().CreateWidgets("SyberiaLifeLimit/layout/AdminToolMarker.layout");
+		ref Widget w = GetGame().GetWorkspace().CreateWidgets("SyberiaScripts/layout/AdminToolMarker.layout");
 		ref TextWidget tw = TextWidget.Cast(w.FindAnyWidget("Text"));
 		ref ImageWidget iw = ImageWidget.Cast(w.FindAnyWidget("Image"));
 		w.SetPos(screenPos[0], sy - screenPos[1]);	
@@ -176,11 +176,11 @@ class SyberiaAdditionalHud
 		}
 		else if (type == PluginAdminTool_EspType.BODY)
 		{
-			iw.LoadImageFile(0, "SyberiaLifeLimit\\data\\gui\\Markers\\corpse.paa");
+			iw.LoadImageFile(0, "SyberiaScripts\\data\\gui\\Markers\\corpse.paa");
 		}
 		else if (type == PluginAdminTool_EspType.VEHICLES)
 		{
-			iw.LoadImageFile(0, "SyberiaLifeLimit\\data\\gui\\Markers\\car.paa");
+			iw.LoadImageFile(0, "SyberiaScripts\\data\\gui\\Markers\\car.paa");
 			name = GameHelpers.GetItemDisplayName(name);
 		}
 		else if (type == PluginAdminTool_EspType.LOOT)

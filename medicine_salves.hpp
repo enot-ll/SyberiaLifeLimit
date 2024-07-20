@@ -22,7 +22,7 @@ class SalveKapsikam : SalveBase
     medHematomaHeal=1;
     medHematomaHealTimeSec=300;
     hiddenSelections[] = {"zbytek"};
-    hiddenSelectionsTextures[] = { "SyberiaLifeLimit\data\medical\salve_blue_co.paa" };
+    hiddenSelectionsTextures[] = { "SyberiaScripts\data\medical\salve_blue_co.paa" };
     ITEM_DAMAGE_SYSTEM(150, "DZ\gear\medical\data\vitamin_bottle.rvmat", "DZ\gear\medical\data\vitamin_bottle_damage.rvmat", "DZ\gear\medical\data\vitamin_bottle_destruct.rvmat");
 };
 
@@ -34,7 +34,7 @@ class SalveFinalgon : SalveBase
     medHematomaHeal=1;
     medHematomaHealTimeSec=600;
     hiddenSelections[] = {"zbytek"};
-    hiddenSelectionsTextures[] = { "SyberiaLifeLimit\data\medical\salve_red_co.paa" };
+    hiddenSelectionsTextures[] = { "SyberiaScripts\data\medical\salve_red_co.paa" };
     ITEM_DAMAGE_SYSTEM(150, "DZ\gear\medical\data\vitamin_bottle.rvmat", "DZ\gear\medical\data\vitamin_bottle_damage.rvmat", "DZ\gear\medical\data\vitamin_bottle_destruct.rvmat");
 };
 
@@ -46,6 +46,6 @@ class SalveViprosal : SalveBase
     medHematomaHeal=1;
     medHematomaHealTimeSec=400;
     hiddenSelections[] = {"zbytek"};
-    hiddenSelectionsTextures[] = { "SyberiaLifeLimit\data\medical\salve_orange_co.paa" };
+    hiddenSelectionsTextures[] = { "SyberiaScripts\data\medical\salve_orange_co.paa" };
     ITEM_DAMAGE_SYSTEM(150, "DZ\gear\medical\data\vitamin_bottle.rvmat", "DZ\gear\medical\data\vitamin_bottle_damage.rvmat", "DZ\gear\medical\data\vitamin_bottle_destruct.rvmat");
 };

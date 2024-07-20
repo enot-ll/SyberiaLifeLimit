@@ -18,7 +18,7 @@ FrameWidgetClass rootFrame {
    hexactsize 1
    vexactsize 1
    scaled 1
-   image0 "SyberiaLifeLimit/data/gui/Homebook/gui_background.paa"
+   image0 "SyberiaScripts/data/gui/Homebook/gui_background.paa"
    mode blend
    "src alpha" 1
    "no wrap" 0
@@ -87,7 +87,7 @@ FrameWidgetClass rootFrame {
                vexactpos 1
                hexactsize 1
                vexactsize 1
-               image0 "SyberiaLifeLimit/data/gui/Homebook/icon_general.paa"
+               image0 "SyberiaScripts/data/gui/Homebook/icon_general.paa"
                mode blend
                "src alpha" 1
                "no wrap" 0
@@ -155,7 +155,7 @@ FrameWidgetClass rootFrame {
                vexactpos 1
                hexactsize 1
                vexactsize 1
-               image0 "SyberiaLifeLimit/data/gui/Homebook/icon_door.paa"
+               image0 "SyberiaScripts/data/gui/Homebook/icon_door.paa"
                mode blend
                "src alpha" 1
                "no wrap" 0
@@ -223,7 +223,7 @@ FrameWidgetClass rootFrame {
                vexactpos 1
                hexactsize 1
                vexactsize 1
-               image0 "SyberiaLifeLimit/data/gui/Homebook/icon_guard.paa"
+               image0 "SyberiaScripts/data/gui/Homebook/icon_guard.paa"
                mode blend
                "src alpha" 1
                "no wrap" 0
@@ -291,7 +291,7 @@ FrameWidgetClass rootFrame {
                vexactpos 1
                hexactsize 1
                vexactsize 1
-               image0 "SyberiaLifeLimit/data/gui/Homebook/icon_members.paa"
+               image0 "SyberiaScripts/data/gui/Homebook/icon_members.paa"
                mode blend
                "src alpha" 1
                "no wrap" 0
@@ -475,7 +475,7 @@ FrameWidgetClass rootFrame {
                  vexactpos 1
                  hexactsize 1
                  vexactsize 1
-                 image0 "SyberiaLifeLimit/data/gui/Homebook/icon_upgrade.paa"
+                 image0 "SyberiaScripts/data/gui/Homebook/icon_upgrade.paa"
                  mode blend
                  "src alpha" 1
                  "no wrap" 0

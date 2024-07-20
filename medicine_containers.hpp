@@ -56,7 +56,7 @@ class MedContainerMedium: Container_Base
     scope=2;
     displayName="#syb_medcontainer_middle_name";
     descriptionShort="#syb_medcontainer_middle_desc";
-    model="SyberiaLifeLimit\data\medical\medium_first_aid_kit.p3d";
+    model="SyberiaScripts\data\medical\medium_first_aid_kit.p3d";
     rotationFlags=17;
     weight=250;
     itemSize[]={4,4};
@@ -66,7 +66,7 @@ class MedContainerMedium: Container_Base
     canBeDigged=1;
     isMeleeWeapon=1;
     
-    ITEM_DAMAGE_SYSTEM(100, "SyberiaLifeLimit\data\medical\medium_first_aid_kit.rvmat", "SyberiaLifeLimit\data\medical\medium_first_aid_kit_damage.rvmat", "SyberiaLifeLimit\data\medical\medium_first_aid_kit_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(100, "SyberiaScripts\data\medical\medium_first_aid_kit.rvmat", "SyberiaScripts\data\medical\medium_first_aid_kit_damage.rvmat", "SyberiaScripts\data\medical\medium_first_aid_kit_destruct.rvmat");
 
     class AnimEvents
     {
@@ -91,7 +91,7 @@ class MedContainerLarge: Container_Base
     scope=2;
     displayName="#syb_medcontainer_large_name";
     descriptionShort="#syb_medcontainer_large_desc";
-    model="SyberiaLifeLimit\data\medical\large_first_aid_kit.p3d";
+    model="SyberiaScripts\data\medical\large_first_aid_kit.p3d";
     rotationFlags=17;
     weight=500;
     itemSize[]={5,5};
@@ -101,7 +101,7 @@ class MedContainerLarge: Container_Base
     canBeDigged=1;
     isMeleeWeapon=1;
     
-    ITEM_DAMAGE_SYSTEM(100, "SyberiaLifeLimit\data\medical\large_first_aid_kit.rvmat", "SyberiaLifeLimit\data\medical\large_first_aid_kit.rvmat", "SyberiaLifeLimit\data\medical\large_first_aid_kit.rvmat");
+    ITEM_DAMAGE_SYSTEM(100, "SyberiaScripts\data\medical\large_first_aid_kit.rvmat", "SyberiaScripts\data\medical\large_first_aid_kit.rvmat", "SyberiaScripts\data\medical\large_first_aid_kit.rvmat");
 
     class AnimEvents
     {

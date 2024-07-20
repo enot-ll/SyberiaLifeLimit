@@ -70,7 +70,7 @@ class GearPDAMenu extends UIScriptedMenu
 
     override Widget Init()
     {
-		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "SyberiaLifeLimit/layout/GearPDAMenu.layout" );
+		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "SyberiaScripts/layout/GearPDAMenu.layout" );
 
         m_contactList = TextListboxWidget.Cast( layoutRoot.FindAnyWidget( "contact_list" ) );
 		m_yourIdText = TextWidget.Cast( layoutRoot.FindAnyWidget( "your_id_text" ) );
@@ -153,7 +153,7 @@ class GearPDAMenu extends UIScriptedMenu
 		
 		vector pos = player.GetPosition();
 		m_map.ClearUserMarks();
-		m_map.AddUserMark(pos, "", ARGBF(1, 0.690, 0.152, 0.188), "SyberiaLifeLimit\\data\\pda\\marker.paa");
+		m_map.AddUserMark(pos, "", ARGBF(1, 0.690, 0.152, 0.188), "SyberiaScripts\\data\\pda\\marker.paa");
 		m_map.SetScale(0.05);
 		
 		pos[0] = pos[0] + 160;

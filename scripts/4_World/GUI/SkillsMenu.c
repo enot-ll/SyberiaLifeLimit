@@ -43,7 +43,7 @@ class SkillsMenu extends UIScriptedMenu
 
     override Widget Init()
     {
-		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "SyberiaLifeLimit/layout/SkillsMenu.layout" );
+		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "SyberiaScripts/layout/SkillsMenu.layout" );
 
 		m_skillsList = TextListboxWidget.Cast(layoutRoot.FindAnyWidget("SkillsWidget"));
 		m_totalLvlText = TextWidget.Cast(layoutRoot.FindAnyWidget("TotalLvlText"));

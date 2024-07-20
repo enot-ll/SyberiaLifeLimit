@@ -2,7 +2,7 @@ class SleepingBag_BaseColor : Inventory_Base {
     scope=0;
     displayName="#syb_sbag_packed_name";
     descriptionShort="#syb_sbag_packed_desc";
-    model="SyberiaLifeLimit\data\sleeping\sbag_packed.p3d";
+    model="SyberiaScripts\data\sleeping\sbag_packed.p3d";
     weight=500;
     itemSize[]={2,3};
     repairableWithKits[]={5,6};
@@ -20,7 +20,7 @@ class SleepingBag_BaseColor : Inventory_Base {
 class SleepingBagPlaced_BaseColor : BaseBuildingBase {
     displayName="#syb_sbag_packed_name";
     descriptionShort="#syb_sbag_packed_desc";
-    model="SyberiaLifeLimit\data\sleeping\sbag_placed.p3d";
+    model="SyberiaScripts\data\sleeping\sbag_placed.p3d";
     weight=500;
     rotationFlags=2;
     bounding="BSphere";
@@ -48,7 +48,7 @@ class SleepingBagPlacing : BaseBuildingBase {
     hologramMaterial="tent_medium";
     hologramMaterialPath="dz\gear\camping\data";
     alignHologramToTerain=1;
-    model="SyberiaLifeLimit\data\sleeping\sbag_placed.p3d";
+    model="SyberiaScripts\data\sleeping\sbag_placed.p3d";
     hiddenSelections[]=
     {
         "body"
@@ -61,9 +61,9 @@ class SleepingBag_Blue : SleepingBag_BaseColor {
     placedName="SleepingBagPlaced_Blue";
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\sleeping\sbag_packed_blue.paa"
+        "SyberiaScripts\data\sleeping\sbag_packed_blue.paa"
     };
-    ITEM_DAMAGE_SYSTEM(300, "SyberiaLifeLimit\data\sleeping\sbag_packed.rvmat", "SyberiaLifeLimit\data\sleeping\sbag_packed_damage.rvmat", "SyberiaLifeLimit\data\sleeping\sbag_packed_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(300, "SyberiaScripts\data\sleeping\sbag_packed.rvmat", "SyberiaScripts\data\sleeping\sbag_packed_damage.rvmat", "SyberiaScripts\data\sleeping\sbag_packed_destruct.rvmat");
 };
 
 class SleepingBagPlaced_Blue : SleepingBagPlaced_BaseColor {
@@ -71,9 +71,9 @@ class SleepingBagPlaced_Blue : SleepingBagPlaced_BaseColor {
     packedName="SleepingBag_Blue";
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\sleeping\sbag_placed_blue.paa"
+        "SyberiaScripts\data\sleeping\sbag_placed_blue.paa"
     };
-    ITEM_DAMAGE_SYSTEM(300, "SyberiaLifeLimit\data\sleeping\sbag_placed.rvmat", "SyberiaLifeLimit\data\sleeping\sbag_placed_damage.rvmat", "SyberiaLifeLimit\data\sleeping\sbag_placed_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(300, "SyberiaScripts\data\sleeping\sbag_placed.rvmat", "SyberiaScripts\data\sleeping\sbag_placed_damage.rvmat", "SyberiaScripts\data\sleeping\sbag_placed_destruct.rvmat");
 };
 
 // WOODLAND
@@ -82,9 +82,9 @@ class SleepingBag_Woodland : SleepingBag_BaseColor {
     placedName="SleepingBagPlaced_Woodland";
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\sleeping\sbag_packed_woodland.paa"
+        "SyberiaScripts\data\sleeping\sbag_packed_woodland.paa"
     };
-    ITEM_DAMAGE_SYSTEM(200, "SyberiaLifeLimit\data\sleeping\sbag_packed.rvmat", "SyberiaLifeLimit\data\sleeping\sbag_packed_damage.rvmat", "SyberiaLifeLimit\data\sleeping\sbag_packed_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(200, "SyberiaScripts\data\sleeping\sbag_packed.rvmat", "SyberiaScripts\data\sleeping\sbag_packed_damage.rvmat", "SyberiaScripts\data\sleeping\sbag_packed_destruct.rvmat");
 };
 
 class SleepingBagPlaced_Woodland : SleepingBagPlaced_BaseColor {
@@ -92,7 +92,7 @@ class SleepingBagPlaced_Woodland : SleepingBagPlaced_BaseColor {
     packedName="SleepingBag_Woodland";
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\sleeping\sbag_placed_woodland.paa"
+        "SyberiaScripts\data\sleeping\sbag_placed_woodland.paa"
     };
-    ITEM_DAMAGE_SYSTEM(200, "SyberiaLifeLimit\data\sleeping\sbag_placed.rvmat", "SyberiaLifeLimit\data\sleeping\sbag_placed_damage.rvmat", "SyberiaLifeLimit\data\sleeping\sbag_placed_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(200, "SyberiaScripts\data\sleeping\sbag_placed.rvmat", "SyberiaScripts\data\sleeping\sbag_placed_damage.rvmat", "SyberiaScripts\data\sleeping\sbag_placed_destruct.rvmat");
 };

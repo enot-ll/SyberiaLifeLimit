@@ -1,30 +1,30 @@
 class CfgPatches {
-	class SyberiaLifeLimit {
+	class SyberiaScripts {
         units[] = {};
 		requiredAddons[] = {"DZ_Data", "DZ_Scripts", "DZ_Gear_Medical", "DZ_Gear_Consumables"};
 	};
 };
 
 class CfgMods {
-	class SyberiaLifeLimit {
+	class SyberiaScripts {
 		type = "mod";
         author = "Terje Broygard";
-        inputs = "SyberiaLifeLimit/inputs/inputs.xml";
+        inputs = "SyberiaScripts/inputs/inputs.xml";
 
 		class defs {
 			class gameScriptModule {
 				value = "";
-				files[] = {"SyberiaLifeLimit/scripts/3_Game"};
+				files[] = {"SyberiaScripts/scripts/3_Game"};
 			};
 
 			class worldScriptModule {
 				value = "";
-				files[] = {"SyberiaLifeLimit/scripts/4_World"};
+				files[] = {"SyberiaScripts/scripts/4_World"};
 			};
 
 			class missionScriptModule {
 				value = "";
-				files[] = {"SyberiaLifeLimit/scripts/5_Mission"};
+				files[] = {"SyberiaScripts/scripts/5_Mission"};
 			};
 
 			class imageSets {

@@ -35,12 +35,6 @@ class PluginLogicPDA extends PluginBase
 			if (item.IsRuined())
 				continue;
 
-			if (!item.HasEnergyManager())
-				continue;
-			
-			if (!item.GetCompEM().CanWork())
-				continue;
-
 			return true;
 		}
 		

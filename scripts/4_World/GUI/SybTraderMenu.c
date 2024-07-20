@@ -113,7 +113,7 @@ class SybTraderMenu extends UIScriptedMenu
 	
 	int InitItemSell(int index, int depth, ItemBase item, PluginTrader pluginTrader)
 	{		
-		ref Widget itemSell = GetGame().GetWorkspace().CreateWidgets( "SyberiaLifeLimit/layout/TraderMenuItemSell.layout" );		
+		ref Widget itemSell = GetGame().GetWorkspace().CreateWidgets( "SyberiaScripts/layout/TraderMenuItemSell.layout" );		
 		m_sellItemsPanel.AddChild(itemSell);
 				
 		float w, h;
@@ -204,7 +204,7 @@ class SybTraderMenu extends UIScriptedMenu
 	
 	int InitItemBuy(int index, ItemBase item, string classname, float quantity, PluginTrader pluginTrader)
 	{
-		ref Widget itemBuy = GetGame().GetWorkspace().CreateWidgets( "SyberiaLifeLimit/layout/TraderMenuItemBuy.layout" );		
+		ref Widget itemBuy = GetGame().GetWorkspace().CreateWidgets( "SyberiaScripts/layout/TraderMenuItemBuy.layout" );		
 		m_buyItemsPanel.AddChild(itemBuy);
 				
 		float w, h;
@@ -426,7 +426,7 @@ class SybTraderMenu extends UIScriptedMenu
 	
 	override Widget Init()
     {
-		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "SyberiaLifeLimit/layout/TraderMenu.layout" );
+		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "SyberiaScripts/layout/TraderMenu.layout" );
 		
 		m_sellItemsPanel = ScrollWidget.Cast( layoutRoot.FindAnyWidget( "SellItemsPanel" ) );
 		m_buyItemsPanel = ScrollWidget.Cast( layoutRoot.FindAnyWidget( "BuyItemsPanel" ) );

@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="SyberiaLifeLimit\data\building\doors\metal_rust_02_smdi.paa";
+	texture="SyberiaScripts\data\building\doors\metal_rust_02_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{

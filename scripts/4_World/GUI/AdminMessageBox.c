@@ -18,7 +18,7 @@ class AdminMessageBox extends UIScriptedMenu
 
 	override Widget Init()
     {
-		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "SyberiaLifeLimit/layout/AdminMessageBox.layout" );
+		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "SyberiaScripts/layout/AdminMessageBox.layout" );
 		
 		// Init admin message
 		m_adminMsgActionBtn = ButtonWidget.Cast( layoutRoot.FindAnyWidget("AdminMsgActionBtn") );	

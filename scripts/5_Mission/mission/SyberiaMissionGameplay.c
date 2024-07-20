@@ -72,7 +72,7 @@ modded class MissionGameplay
 		
 		if (!m_AdditionHudRootWidget)
 		{
-			m_AdditionHudRootWidget = GetGame().GetWorkspace().CreateWidgets("SyberiaLifeLimit/layout/AdditionalHud.layout");
+			m_AdditionHudRootWidget = GetGame().GetWorkspace().CreateWidgets("SyberiaScripts/layout/AdditionalHud.layout");
 			m_AdditionHudRootWidget.Show(false);
 			
 			if ( !m_SyberiaAdditionalHud )
@@ -453,7 +453,7 @@ modded class MissionGameplay
 		UIScriptedMenu ingameMenu = GetGame().GetUIManager().GetMenu();
 		if (ingameMenu && ingameMenu.GetID() == MENU_INGAME)
 		{
-			ref Widget watermarkWidget = GetGame().GetWorkspace().CreateWidgets( "SyberiaLifeLimit/layout/WatermarkInGame.layout" );		
+			ref Widget watermarkWidget = GetGame().GetWorkspace().CreateWidgets( "SyberiaScripts/layout/WatermarkInGame.layout" );		
 			ref Widget watermarkBase = watermarkWidget.FindAnyWidget( "WatermarkBase" );
 			ref Widget watermarkBtn = watermarkBase.FindAnyWidget( "WatermarkActionBtn" );
 			m_WidgetEventHandler.RegisterOnClick(watermarkBtn, m_watermarkHandler, "OnWatermarkClick");

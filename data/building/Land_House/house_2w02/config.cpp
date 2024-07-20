@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class SyberiaLifeLimit
+	class SyberiaScripts
 	{
 		units[]={};
 		weapons[]={};
@@ -17,7 +17,7 @@ class CfgVehicles
 	
 	class Land_House_2W02_Livespace0: BuildingLivespace
     {
-        model="\SyberiaLifeLimit\data\building\Land_House\house_2w02\house_2w02_livespace0.p3d";
+        model="\SyberiaScripts\data\building\Land_House\house_2w02\house_2w02_livespace0.p3d";
         simpleHiddenSelections[] = {
 			"d1_l1",
 			"d1_l2",

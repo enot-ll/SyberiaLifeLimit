@@ -13,7 +13,7 @@ modded class MissionMainMenu
 			rootWidget = m_mainmenu.GetLayoutRoot();
 		}
 		
-		ref Widget watermarkWidget = GetGame().GetWorkspace().CreateWidgets( "SyberiaLifeLimit/layout/WatermarkMain.layout" );		
+		ref Widget watermarkWidget = GetGame().GetWorkspace().CreateWidgets( "SyberiaScripts/layout/WatermarkMain.layout" );		
 		ref Widget watermarkBase = watermarkWidget.FindAnyWidget( "WatermarkBase" );
 		ref Widget watermarkBtn = watermarkBase.FindAnyWidget( "WatermarkActionBtn" );
 		m_WidgetEventHandler.RegisterOnClick(watermarkBtn, m_watermarkHandler, "OnWatermarkClick");

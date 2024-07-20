@@ -55,19 +55,19 @@ class TabletsAnalgin : TabletsBase
 {
     scope=2;
     displayName="#syb_analgin_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medPainkillerLevel=1;
     medPainkillerTimeSec=300;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_green_co.paa"
+        "SyberiaScripts\data\medical\tablets_green_co.paa"
     };
     ITEM_DAMAGE_SYSTEM(50, 
-    "SyberiaLifeLimit\data\medical\tablets_base.rvmat", 
-    "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", 
-    "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    "SyberiaScripts\data\medical\tablets_base.rvmat", 
+    "SyberiaScripts\data\medical\tablets_base_damage.rvmat", 
+    "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -75,16 +75,16 @@ class TabletsNaiz : TabletsBase
 {
     scope=2;
     displayName="#syb_naiz_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medPainkillerLevel=1;
     medPainkillerTimeSec=1400;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_brown_co.paa"
+        "SyberiaScripts\data\medical\tablets_brown_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -92,16 +92,16 @@ class TabletsAertal : TabletsBase
 {
     scope=2;
     displayName="#syb_aertal_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medPainkillerLevel=1;
     medPainkillerTimeSec=1300;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_blue_co.paa"
+        "SyberiaScripts\data\medical\tablets_blue_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -109,16 +109,16 @@ class TabletsNimesil : TabletsBase
 {
     scope=2;
     displayName="#syb_nimesil_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medPainkillerLevel=1;
     medPainkillerTimeSec=1300;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_green_co.paa"
+        "SyberiaScripts\data\medical\tablets_green_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -126,16 +126,16 @@ class TabletsPentalgin : TabletsBase
 {
     scope=2;
     displayName="#syb_pentalgin_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medPainkillerLevel=1;
     medPainkillerTimeSec=800;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_white_co.paa"
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -143,16 +143,16 @@ class TabletsMovalis : TabletsBase
 {
     scope=2;
     displayName="#syb_movalis_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medPainkillerLevel=1;
     medPainkillerTimeSec=800;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_sepia_co.paa"
+        "SyberiaScripts\data\medical\tablets_sepia_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -161,16 +161,16 @@ class TabletsCytramon : TabletsBase
 {
     scope=2;
     displayName="#syb_cytramon_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medPainkillerLevel=1;
     medPainkillerTimeSec=400;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_green_co.paa"
+        "SyberiaScripts\data\medical\tablets_green_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -178,7 +178,7 @@ class TabletsParacetamol : TabletsBase
 {
     scope=2;
     displayName="#syb_paracetamol_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medPainkillerLevel=1;
@@ -189,9 +189,9 @@ class TabletsParacetamol : TabletsBase
     overdosedIncrement=0.15;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_blue_co.paa"
+        "SyberiaScripts\data\medical\tablets_blue_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -199,7 +199,7 @@ class TabletsIbuprofen : TabletsBase
 {
     scope=2;
     displayName="#syb_ibuprofen_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medPainkillerLevel=1;
@@ -210,9 +210,9 @@ class TabletsIbuprofen : TabletsBase
     overdosedIncrement=0.2;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_white_co.paa"
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -220,7 +220,7 @@ class TabletsNurofen : TabletsBase
 {
     scope=2;
     displayName="#syb_nurofen_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medPainkillerLevel=1;
@@ -231,9 +231,9 @@ class TabletsNurofen : TabletsBase
     overdosedIncrement=0.2;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_brown_co.paa"
+        "SyberiaScripts\data\medical\tablets_brown_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -241,7 +241,7 @@ class TabletsTetracycline : TabletsBase
 {
     scope=2;
     displayName="#syb_tetracycline_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medAntibioticLevel=2;
@@ -250,9 +250,9 @@ class TabletsTetracycline : TabletsBase
     overdosedIncrement=0.2;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_brown_co.paa"
+        "SyberiaScripts\data\medical\tablets_brown_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -260,7 +260,7 @@ class TabletsAmoksiklav : TabletsBase
 {
     scope=2;
     displayName="#syb_amoksiklav_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medAntibioticLevel=2;
@@ -269,9 +269,9 @@ class TabletsAmoksiklav : TabletsBase
     overdosedIncrement=0.25;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_sepia_co.paa"
+        "SyberiaScripts\data\medical\tablets_sepia_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -279,7 +279,7 @@ class TabletsAmpicylin : TabletsBase
 {
     scope=2;
     displayName="#syb_ampicilin_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medAntibioticLevel=2;
@@ -288,9 +288,9 @@ class TabletsAmpicylin : TabletsBase
     overdosedIncrement=0.23;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_blue_co.paa"
+        "SyberiaScripts\data\medical\tablets_blue_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -298,7 +298,7 @@ class TabletsPiperacylin : TabletsBase
 {
     scope=2;
     displayName="#syb_piperacyclin_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medAntibioticLevel=2;
@@ -307,9 +307,9 @@ class TabletsPiperacylin : TabletsBase
     overdosedIncrement=0.25;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_green_co.paa"
+        "SyberiaScripts\data\medical\tablets_green_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -317,7 +317,7 @@ class TabletsTrihopol : TabletsBase
 {
     scope=2;
     displayName="#syb_trihopol_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medAntibioticLevel=1;
@@ -326,9 +326,9 @@ class TabletsTrihopol : TabletsBase
     overdosedIncrement=0.15;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_green_co.paa"
+        "SyberiaScripts\data\medical\tablets_green_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -336,7 +336,7 @@ class TabletsCyprolet : TabletsBase
 {
     scope=2;
     displayName="#syb_cyprolet_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medAntibioticLevel=1;
@@ -345,9 +345,9 @@ class TabletsCyprolet : TabletsBase
     overdosedIncrement=0.15;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_white_co.paa"
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -355,7 +355,7 @@ class TabletsAmoksivan : TabletsBase
 {
     scope=2;
     displayName="#syb_amoksivan_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medAntibioticLevel=2;
@@ -364,9 +364,9 @@ class TabletsAmoksivan : TabletsBase
     overdosedIncrement=0.28;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_sepia_co.paa"
+        "SyberiaScripts\data\medical\tablets_sepia_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -374,7 +374,7 @@ class TabletsAmibaktam : TabletsBase
 {
     scope=2;
     displayName="#syb_amibaktam_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medAntibioticLevel=1;
@@ -382,9 +382,9 @@ class TabletsAmibaktam : TabletsBase
     medAntibioticsStrength = 0.5;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_white_co.paa"
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -392,7 +392,7 @@ class TabletsCharcoal : TabletsBase
 {
     scope=2;
     displayName="#syb_charcoal_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medStomatchhealLevel=1;
@@ -400,9 +400,9 @@ class TabletsCharcoal : TabletsBase
     overdosedIncrement=0.0;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_black_co.paa"
+        "SyberiaScripts\data\medical\tablets_black_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -410,7 +410,7 @@ class TabletsMezimForte : TabletsBase
 {
     scope=2;
     displayName="#syb_mezim_forte_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medStomatchhealLevel=1;
@@ -418,9 +418,9 @@ class TabletsMezimForte : TabletsBase
     overdosedIncrement=0.05;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_brown_co.paa"
+        "SyberiaScripts\data\medical\tablets_brown_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -428,7 +428,7 @@ class TabletsZerukal : TabletsBase
 {
     scope=2;
     displayName="#syb_zerukal_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medStomatchhealLevel=1;
@@ -436,9 +436,9 @@ class TabletsZerukal : TabletsBase
     overdosedIncrement=0.05;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_white_co.paa"
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -446,7 +446,7 @@ class TabletsNifuroksazid : TabletsBase
 {
     scope=2;
     displayName="#syb_nifuroksazid_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medStomatchhealLevel=1;
@@ -454,9 +454,9 @@ class TabletsNifuroksazid : TabletsBase
     overdosedIncrement=0.05;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_green_co.paa"
+        "SyberiaScripts\data\medical\tablets_green_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -464,7 +464,7 @@ class TabletsPolisorb : TabletsBase
 {
     scope=2;
     displayName="#syb_polisorb_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medStomatchhealLevel=1;
@@ -472,9 +472,9 @@ class TabletsPolisorb : TabletsBase
     overdosedIncrement=0.05;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_blue_co.paa"
+        "SyberiaScripts\data\medical\tablets_blue_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -482,16 +482,16 @@ class TabletsKarbopekt : TabletsBase
 {
     scope=2;
     displayName="#syb_karbopekt_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medStomatchhealLevel=1;
     medStomatchhealTimeSec=300;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_sepia_co.paa"
+        "SyberiaScripts\data\medical\tablets_sepia_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -499,16 +499,16 @@ class TabletsEnterofuril : TabletsBase
 {
     scope=2;
     displayName="#syb_enterofuril_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medStomatchhealLevel=1;
     medStomatchhealTimeSec=250;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_brown_co.paa"
+        "SyberiaScripts\data\medical\tablets_brown_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -516,16 +516,16 @@ class TabletsErsefuril : TabletsBase
 {
     scope=2;
     displayName="#syb_ersefuril_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medStomatchhealLevel=1;
     medStomatchhealTimeSec=400;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_white_co.paa"
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -533,16 +533,16 @@ class TabletsSalofalk : TabletsBase
 {
     scope=2;
     displayName="#syb_salofalk_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medStomatchhealLevel=1;
     medStomatchhealTimeSec=250;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_brown_co.paa"
+        "SyberiaScripts\data\medical\tablets_brown_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -550,16 +550,16 @@ class TabletsFtalazol : TabletsBase
 {
     scope=2;
     displayName="#syb_ftalazol_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medStomatchhealLevel=1;
     medStomatchhealTimeSec=250;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_white_co.paa"
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -567,16 +567,16 @@ class TabletsMesalazin : TabletsBase
 {
     scope=2;
     displayName="#syb_mesalazin_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medStomatchhealLevel=1;
     medStomatchhealTimeSec=380;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_blue_co.paa"
+        "SyberiaScripts\data\medical\tablets_blue_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -584,7 +584,7 @@ class TabletsNoopept : TabletsBase
 {
     scope=2;
     displayName="#syb_noopept_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medPainkillerLevel=1;
@@ -592,9 +592,9 @@ class TabletsNoopept : TabletsBase
     medConcussionHeal=1;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_blue_co.paa"
+        "SyberiaScripts\data\medical\tablets_blue_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -602,16 +602,16 @@ class TabletsVikasol : TabletsBase
 {
     scope=2;
     displayName="#syb_vikasol_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medBloodHemostatic=1;
     medBloodHemostaticTimeSec=180;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_white_co.paa"
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -619,16 +619,16 @@ class TabletsDycinon : TabletsBase
 {
     scope=2;
     displayName="#syb_dycinon_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medBloodHemostatic=1;
     medBloodHemostaticTimeSec=240;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_white_co.paa"
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -636,16 +636,16 @@ class TabletsIrovit : TabletsBase
 {
     scope=2;
     displayName="#syb_irovit_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medBloodHematopoiesis=1;
     medBloodHematopoiesisTimeSec=120;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_green_co.paa"
+        "SyberiaScripts\data\medical\tablets_green_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -653,16 +653,16 @@ class TabletsTardiferon : TabletsBase
 {
     scope=2;
     displayName="#syb_tardiferon_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medBloodHematopoiesis=1;
     medBloodHematopoiesisTimeSec=180;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_brown_co.paa"
+        "SyberiaScripts\data\medical\tablets_brown_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -670,16 +670,16 @@ class TabletsHeferol : TabletsBase
 {
     scope=2;
     displayName="#syb_heferol_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medBloodHematopoiesis=1;
     medBloodHematopoiesisTimeSec=220;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_sepia_co.paa"
+        "SyberiaScripts\data\medical\tablets_sepia_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -687,7 +687,7 @@ class TabletsSorbiferDurulis : TabletsBase
 {
     scope=2;
     displayName="#syb_surbifer_durulis_name";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medBloodHematopoiesis=1;
@@ -697,9 +697,9 @@ class TabletsSorbiferDurulis : TabletsBase
     overdosedIncrement=0.15;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_white_co.paa"
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -707,7 +707,7 @@ class TabletsPotassiumIodide : TabletsBase
 {
     scope=2;
     displayName="#syb_potassium_iodide";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medRadioprotectionLevel=1;
@@ -715,9 +715,9 @@ class TabletsPotassiumIodide : TabletsBase
     overdosedIncrement=0.2;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_white_co.paa"
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -725,7 +725,7 @@ class TabletsPotassiumHexacyanoferrate : TabletsBase
 {
     scope=2;
     displayName="#syb_potassium_hexacyanoferrate";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medRadioprotectionLevel=1;
@@ -733,9 +733,9 @@ class TabletsPotassiumHexacyanoferrate : TabletsBase
     overdosedIncrement=0.3;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_black_co.paa"
+        "SyberiaScripts\data\medical\tablets_black_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -743,7 +743,7 @@ class TabletsCystamine : TabletsBase
 {
     scope=2;
     displayName="#syb_cystamine";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medRadioprotectionLevel=1;
@@ -751,9 +751,9 @@ class TabletsCystamine : TabletsBase
     overdosedIncrement=0.3;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_brown_co.paa"
+        "SyberiaScripts\data\medical\tablets_brown_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -761,7 +761,7 @@ class TabletsB190 : TabletsBase
 {
     scope=2;
     displayName="#syb_b190";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medRadioprotectionLevel=1;
@@ -769,9 +769,9 @@ class TabletsB190 : TabletsBase
     overdosedIncrement=0.3;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_blue_co.paa"
+        "SyberiaScripts\data\medical\tablets_blue_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -779,7 +779,7 @@ class TabletsMexamine : TabletsBase
 {
     scope=2;
     displayName="#syb_mexamine";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medRadioprotectionLevel=2;
@@ -787,9 +787,9 @@ class TabletsMexamine : TabletsBase
     overdosedIncrement=0.6;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_green_co.paa"
+        "SyberiaScripts\data\medical\tablets_green_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -797,7 +797,7 @@ class TabletsAgteminol : TabletsBase
 {
     scope=2;
     displayName="#syb_agteminol";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medAntidepresantLevel=1;
@@ -805,9 +805,9 @@ class TabletsAgteminol : TabletsBase
     overdosedIncrement=0.2;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_white_co.paa"
+        "SyberiaScripts\data\medical\tablets_white_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -815,7 +815,7 @@ class TabletsAdepress : TabletsBase
 {
     scope=2;
     displayName="#syb_adepress";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medAntidepresantLevel=1;
@@ -823,9 +823,9 @@ class TabletsAdepress : TabletsBase
     overdosedIncrement=0.2;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_sepia_co.paa"
+        "SyberiaScripts\data\medical\tablets_sepia_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -833,7 +833,7 @@ class TabletsActaparoxetine : TabletsBase
 {
     scope=2;
     displayName="#syb_aktaparoksetyn";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medAntidepresantLevel=1;
@@ -841,9 +841,9 @@ class TabletsActaparoxetine : TabletsBase
     overdosedIncrement=0.2;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_green_co.paa"
+        "SyberiaScripts\data\medical\tablets_green_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -851,7 +851,7 @@ class TabletsAmitriptyline : TabletsBase
 {
     scope=2;
     displayName="#syb_amitriptilin";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medAntidepresantLevel=1;
@@ -859,9 +859,9 @@ class TabletsAmitriptyline : TabletsBase
     overdosedIncrement=0.2;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_brown_co.paa"
+        "SyberiaScripts\data\medical\tablets_brown_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };
 
@@ -869,7 +869,7 @@ class TabletsVenlafaxine : TabletsBase
 {
     scope=2;
     displayName="#syb_venlafaxyn";
-    model="SyberiaLifeLimit\data\medical\tablets.p3d";
+    model="SyberiaScripts\data\medical\tablets.p3d";
     varQuantityInit=10;
     varQuantityMax=10;
     medAntidepresantLevel=1;
@@ -877,8 +877,8 @@ class TabletsVenlafaxine : TabletsBase
     overdosedIncrement=0.2;
     hiddenSelectionsTextures[]=
     {
-        "SyberiaLifeLimit\data\medical\tablets_blue_co.paa"
+        "SyberiaScripts\data\medical\tablets_blue_co.paa"
     };
-    ITEM_DAMAGE_SYSTEM(50, "SyberiaLifeLimit\data\medical\tablets_base.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_damage.rvmat", "SyberiaLifeLimit\data\medical\tablets_base_destruct.rvmat");
+    ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\tablets_base.rvmat", "SyberiaScripts\data\medical\tablets_base_damage.rvmat", "SyberiaScripts\data\medical\tablets_base_destruct.rvmat");
     TABLETS_ANIM_EVENTS;
 };

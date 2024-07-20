@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture = "SyberiaLifeLimit\data\medical\stethoscope\metallic.paa";
+	texture = "SyberiaScripts\data\medical\stethoscope\metallic.paa";
 	uvSource = "tex";
 	class uvTransform
 	{

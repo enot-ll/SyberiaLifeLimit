@@ -175,7 +175,7 @@ FrameWidgetClass rootFrame {
        hexactsize 1
        vexactsize 1
        fixaspect fixwidth
-       image0 "SyberiaLifeLimit/data/gui/sleeping/icon0.paa"
+       image0 "SyberiaScripts/data/gui/sleeping/icon0.paa"
        mode blend
        "src alpha" 1
        "no wrap" 0
@@ -353,7 +353,7 @@ FrameWidgetClass rootFrame {
        hexactsize 1
        vexactsize 1
        fixaspect fixwidth
-       image0 "SyberiaLifeLimit/data/gui/mindstate/icon0.paa"
+       image0 "SyberiaScripts/data/gui/mindstate/icon0.paa"
        mode blend
        "src alpha" 1
        "no wrap" 0
@@ -527,7 +527,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/bullethit.paa"
+     image0 "SyberiaScripts/data/gui/badgets/bullethit.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -563,7 +563,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/knifehit.paa"
+     image0 "SyberiaScripts/data/gui/badgets/knifehit.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -599,7 +599,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/hematoma.paa"
+     image0 "SyberiaScripts/data/gui/badgets/hematoma.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -635,7 +635,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/visceradamage.paa"
+     image0 "SyberiaScripts/data/gui/badgets/visceradamage.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -671,7 +671,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/Concussion.paa"
+     image0 "SyberiaScripts/data/gui/badgets/Concussion.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -692,7 +692,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/Pain.paa"
+     image0 "SyberiaScripts/data/gui/badgets/Pain.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -728,7 +728,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/Painkiller.paa"
+     image0 "SyberiaScripts/data/gui/badgets/Painkiller.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -764,7 +764,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/Antibiotic.paa"
+     image0 "SyberiaScripts/data/gui/badgets/Antibiotic.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -800,7 +800,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/Stomatchheal.paa"
+     image0 "SyberiaScripts/data/gui/badgets/Stomatchheal.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -836,7 +836,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/Sepsis.paa"
+     image0 "SyberiaScripts/data/gui/badgets/Sepsis.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -857,7 +857,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/ZVirus.paa"
+     image0 "SyberiaScripts/data/gui/badgets/ZVirus.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -878,7 +878,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/Bandage1.paa"
+     image0 "SyberiaScripts/data/gui/badgets/Bandage1.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -914,7 +914,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/Bandage2.paa"
+     image0 "SyberiaScripts/data/gui/badgets/Bandage2.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -950,7 +950,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/Hemostatic.paa"
+     image0 "SyberiaScripts/data/gui/badgets/Hemostatic.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -971,7 +971,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/Hematopoiesis.paa"
+     image0 "SyberiaScripts/data/gui/badgets/Hematopoiesis.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -992,7 +992,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/UseSalve.paa"
+     image0 "SyberiaScripts/data/gui/badgets/UseSalve.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -1013,7 +1013,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/Adrenalin.paa"
+     image0 "SyberiaScripts/data/gui/badgets/Adrenalin.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -1049,7 +1049,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/Overdosed.paa"
+     image0 "SyberiaScripts/data/gui/badgets/Overdosed.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -1085,7 +1085,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/Influenza.paa"
+     image0 "SyberiaScripts/data/gui/badgets/Influenza.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -1121,7 +1121,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/Stomatchpoison.paa"
+     image0 "SyberiaScripts/data/gui/badgets/Stomatchpoison.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -1157,7 +1157,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/RadiationSickness.paa"
+     image0 "SyberiaScripts/data/gui/badgets/RadiationSickness.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -1193,7 +1193,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/Radioprotection.paa"
+     image0 "SyberiaScripts/data/gui/badgets/Radioprotection.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -1229,7 +1229,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/Disinfected.paa"
+     image0 "SyberiaScripts/data/gui/badgets/Disinfected.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1
@@ -1250,7 +1250,7 @@ FrameWidgetClass rootFrame {
      hexactsize 1
      vexactsize 1
      fixaspect fixwidth
-     image0 "SyberiaLifeLimit/data/gui/badgets/Antidepresant.paa"
+     image0 "SyberiaScripts/data/gui/badgets/Antidepresant.paa"
      mode blend
      "src alpha" 1
      "no wrap" 1

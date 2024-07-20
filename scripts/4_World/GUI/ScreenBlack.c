@@ -12,7 +12,7 @@ class ScreenBlack extends ScreenBase
 	
     override Widget Init()
     {
-		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "SyberiaLifeLimit/layout/ScreenBlack.layout" );	
+		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "SyberiaScripts/layout/ScreenBlack.layout" );	
         return layoutRoot;
     }
 }

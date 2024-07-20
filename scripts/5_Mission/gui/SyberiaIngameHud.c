@@ -37,7 +37,7 @@ modded class IngameHud
 		m_StatesWidgets.Set(id, imagew);
 		for ( int i = 0; i < 5; i++ )
 		{
-			imagew.LoadImageFile( i, "SyberiaLifeLimit/data/gui/" + name + "/icon" + i + ".paa");
+			imagew.LoadImageFile( i, "SyberiaScripts/data/gui/" + name + "/icon" + i + ".paa");
 		}		
 	}
 	

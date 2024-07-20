@@ -1,6 +1,6 @@
 class CfgPatches
 {
-	class SyberiaLifeLimit
+	class SyberiaScripts
 	{
 		units[]={};
 		weapons[]={};
@@ -33,7 +33,7 @@ class CfgVehicles
             "d12_l3",
             "homebook"
         };
-        model="\SyberiaLifeLimit\data\building\industrial\garages\garage_row_small\garage_row_small_livespace0.p3d";
+        model="\SyberiaScripts\data\building\industrial\garages\garage_row_small\garage_row_small_livespace0.p3d";
 		class Doors
 		{
 			class DoorsTwin1

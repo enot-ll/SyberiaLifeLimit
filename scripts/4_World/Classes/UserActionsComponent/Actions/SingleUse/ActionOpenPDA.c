@@ -24,7 +24,7 @@ class ActionOpenPDA extends ActionSingleUseBase
 
 	override bool ActionCondition( PlayerBase player, ActionTarget target, ItemBase item )
 	{
-		if ( item && !item.IsRuined() && item.HasEnergyManager() && item.GetCompEM().CanWork() )
+		if ( item && !item.IsRuined() )
 		{
 			if (GetGame().IsClient() && player.CanOpenSyberiaUI())
 			{
@@ -50,7 +50,6 @@ class ActionOpenPDA extends ActionSingleUseBase
 	
 	override void OnExecuteClient( ActionData action_data )
 	{		
-		action_data.m_MainItem.GetCompEM().ConsumeEnergy(0.01);
 		
 		PluginGearPDA pluginGearPDA;
 		Class.CastTo(pluginGearPDA, GetPlugin(PluginGearPDA));
@@ -59,10 +58,5 @@ class ActionOpenPDA extends ActionSingleUseBase
 		{					
 			pluginGearPDA.Open();
 		}
-	}
-
-	override void OnExecuteServer( ActionData action_data )
-	{
-		action_data.m_MainItem.GetCompEM().ConsumeEnergy(0.01);
 	}
 };

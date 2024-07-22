@@ -56,8 +56,11 @@ class PluginSyberiaRpc : PluginBase
     void SendToClient(int id, PlayerIdentity identity, ref Param params) 
 	{
 		if (GetGame().IsServer())
-		{	
-			ExpansionNotification("Title", "Test").Success(identity);
+		{		
+			auto sendData = new ref array< ref Param >;
+			sendData.Insert(new ref Param1<int>( id ));
+			sendData.Insert(params);
+        	GetGame().RPC(null, 67993700, sendData, true, identity);
 		}
     }
 	

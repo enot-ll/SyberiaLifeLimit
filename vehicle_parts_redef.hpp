@@ -43,11 +43,6 @@ class TireRepairKit: Inventory_Base
     vehiclePartItem=1;
 };
 
-class CanisterGasoline: Inventory_Base
-{
-    vehiclePartItem=1;
-};
-
 class CarWheel: Inventory_Base
 {
     vehiclePartItem=1;

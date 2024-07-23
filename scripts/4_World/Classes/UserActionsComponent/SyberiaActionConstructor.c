@@ -29,7 +29,6 @@ modded class ActionConstructor
 		actions.Insert(ActionDebugBuildingToolMarker);
 		actions.Insert(ActionDebugBuildingToolSizer);
 		actions.Insert(ActionSearchTargetInventory);
-		actions.Insert(ActionTraderInteract);
         actions.Insert(ActionWashFruitsWell);
 		actions.Insert(ActionWashFruitsWater);
         actions.Insert(ActionHomebookClaimOwnership);

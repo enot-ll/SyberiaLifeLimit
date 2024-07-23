@@ -85,7 +85,6 @@ modded class PlayerBase
 	{
 		super.SetActions(InputActionMap);
 		AddAction(ActionSearchTargetInventory, InputActionMap);
-		AddAction(ActionTraderInteract, InputActionMap);
 		AddAction(ActionOpenHomebook, InputActionMap);
 	}
 	

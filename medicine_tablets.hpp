@@ -588,7 +588,7 @@ class TabletsNoopept : TabletsBase
     varQuantityInit=10;
     varQuantityMax=10;
     medPainkillerLevel=1;
-    medPainkillerTimeSec=60;
+    medPainkillerTimeSec=300;
     medConcussionHeal=1;
     hiddenSelectionsTextures[]=
     {

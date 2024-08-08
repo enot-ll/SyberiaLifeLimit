@@ -27,14 +27,17 @@ class PersonalRadio : Transmitter_Base {
 class Pot: Bottle_Base
 {
     varTemperatureMin=-100;
+    varTemperatureInit=0;
 };
 
 class FryingPan: Inventory_Base
 {
     varTemperatureMin=-100;
+    varTemperatureInit=0;
 };
 
 class Heatpack: Inventory_Base
 {
     varTemperatureMin=-100;
+    varTemperatureInit=0;
 };

@@ -18,6 +18,7 @@ class Inventory_Base;
 class Edible_Base: Inventory_Base
 {
     varTemperatureMin=-100;
+    varTemperatureInit=0;
 };
 
 class Bottle_Base;

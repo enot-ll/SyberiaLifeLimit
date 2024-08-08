@@ -9,6 +9,7 @@ class SyringeEmpty : Inventory_Base
     weight=50;
     absorbency=0;
     varTemperatureMax=100;
+    varTemperatureInit=10;
     medicalItem=1;
     ITEM_DAMAGE_SYSTEM(50, "SyberiaScripts\data\medical\syringe.rvmat", "SyberiaScripts\data\medical\syringe_damage.rvmat", "SyberiaScripts\data\medical\syringe_destruct.rvmat");
 };
@@ -24,6 +25,7 @@ class SyringeFull : Inventory_Base
     weight=100;
     absorbency=0;
     varTemperatureMax=100;
+    varTemperatureInit=10;
     medicalItem=1;
     hiddenSelections[]=
     {

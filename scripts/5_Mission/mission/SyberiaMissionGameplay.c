@@ -9,7 +9,7 @@ modded class MissionGameplay
 	float m_toxicZoneUpdateTimer;
 	float m_psiZoneUpdateTimer;
 	bool m_isPveIntruderLast;
-	
+
 	override void OnMissionStart()
 	{
 		SybLog("MissionGameplay OnMissionStart");
@@ -124,6 +124,7 @@ modded class MissionGameplay
 		GetSyberiaRPC().RegisterHandler(SyberiaRPC.SYBRPC_SCREEN_MESSAGE, this, "OnScreenMessageRpc");
 		GetSyberiaRPC().RegisterHandler(SyberiaRPC.SYBRPC_SYNC_TOXIC_ZONES, this, "OnSyncToxicZone");
 		GetSyberiaRPC().RegisterHandler(SyberiaRPC.SYBRPC_SYNC_PSI_ZONES, this, "OnSyncPsiZone");
+		GetSyberiaRPC().RegisterHandler(SyberiaRPC.EXPANSION_QUEST_SHOW_HUD, this, "OnQuestStarted");
 	}
 	
 	override void OnUpdate(float timeslice)
@@ -502,6 +503,18 @@ modded class MissionGameplay
 			foreach (ref PsiZone zone : psiZonesInfo)
 			{
 				m_psiZonesView.Insert(new PsiZoneView(zone.m_position, zone.m_radius));
+			}
+		}
+	}
+
+	protected void OnQuestStarted(ParamsReadContext ctx, PlayerIdentity sender) {
+		Param1<string> clientData;
+       	if ( !ctx.Read( clientData ) ) return;	
+
+		MissionGameplay mission = MissionGameplay.Cast(GetGame().GetMission());
+		if(mission) {
+			if(mission.QuestHudState()) {
+				mission.ToggleQuestHUD();
 			}
 		}
 	}

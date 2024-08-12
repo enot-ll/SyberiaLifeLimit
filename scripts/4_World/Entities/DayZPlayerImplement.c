@@ -33,6 +33,17 @@ modded class DayZPlayerImplement
 	#endif
 	}
 	
+	override bool CanReleaseAttachment(EntityAI attachment)
+	{
+		if (!super.CanReleaseAttachment(attachment))
+			return false;
+
+		if (attachment.IsInherited(ItemPDA))
+			return false;
+
+		return super.CanReleaseAttachment(attachment);
+	}
+	
 	override void StopDeathDarkeningEffect()
 	{
 		

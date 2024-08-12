@@ -92,6 +92,7 @@ modded class PlayerBase
 	{
 		super.SetActionsRemoteTarget(InputActionMap);
 		AddAction(ActionStethoscopeInspect, InputActionMap);
+		RemoveAction(ActionCheckPulseTarget, InputActionMap);
 		// AddAction(ActionCheckName, InputActionMap);
 		// AddAction(ActionSayName, InputActionMap);			
 	}
